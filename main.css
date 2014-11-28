@@ -40,9 +40,6 @@ html {
     box-sizing:inherit;
 }
 
-main {
-      background-color: #fff9f5;
-}
 
 body {
     margin: 0;
@@ -73,10 +70,6 @@ body {
 .author {
 }
 
-
-.section-background {
-    background-color: #ffe1cf;
-}
 
 
 a:link,
@@ -111,18 +104,21 @@ a:focus {
 
 .nav {
     padding: 0;
-    background-color: #ffe1cf;
-
+    background-color: none;
+    display: inline-block;
+    overflow: hidden;
 }
 
+
 .nav li {
-    display: block;
+    display: inline-block;
+  
 }
 .nav a,
 .nav a:link,
 .nav a:visited {
     display: block;
-    color: #fff;
+    color: #3AC2D4;
     text-decoration: none;
 }
 
@@ -133,18 +129,81 @@ a:focus {
 .nav .nav-current, 
 .nav .nav-current:link,
 .nav .nav-current:visited {
-    background-color: #c3a0ff;
     color: #fff;
 }
 
 
 .profile {
-    width: 30%;
-
+    width: 100%;
+    border-radius: 50%;
+    border: 1rem;
+    border-color: #ffffff;
 }
 
-.service {
+.text-center {
+    text-align: center;
+}
 
+.icons {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-light {
+ background-color: #F2F2F2;
+}
+
+.section-mid {
+    background-color: #A6A5A5;
+}
+
+.section-dark {
+    background-color: #737373;
+}
+
+.blue {
+    color: #3AC2D4;
+}
+
+.white {
+    color: #fff;
+}
+
+.light-grey{
+   color: #F2F2F2;
+}
+
+.mid-grey {
+    color: #A6A5A5;
+}
+    
+.dark-grey {
+    color: #737373;
+}
+
+
+button {
+    font-size: 0.75em;
+    background-color: #F2F2F2;
+    color: #737373;
+    cursor: pointer;
+    padding: 0.5em 0.5em;
+    border: none;
+}
+
+
+button:hover {
+    color: #fff;
+    background-color: #3AC2D4
+}
+
+.logo {
+    width: 20%;
+    margin: none;
+    padding: none;
+    display: inline-block;
+    overflow: hidden;
 }
 
 
@@ -161,11 +220,25 @@ a:focus {
     
     .nav {
         text-align: left;
+        float: left;
     }
     .nav-footer {
         text-align: center;
     }
+    
+    .icons {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }
+      .logo {
+    width: 10%;
+    }
+
+    
+}
+
+
 
 @media only screen and (min-width: 60em) {
     .copy {
@@ -173,6 +246,16 @@ a:focus {
     }
     .nav-footer {
         float: right;
+    }
+    .tab {
+        margin: 0 5% 0 5%;
+    }
+    
+    .nav {
+        float: left;
+    }
+    .logo {
+    width: 10%;
     }
 }
     
