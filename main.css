@@ -142,8 +142,8 @@ font-family: 'Droid Serif', serif;
 .profile {
     width: 100%;
     border-radius: 50%;
-    border: 1rem;
-    border-color: #ffffff;
+    border: 3px solid #fff;
+    
 }
 
 .text-center {
@@ -259,6 +259,7 @@ button:hover {
         text-align: center;
     }
     
+    
  .icons {
     width: 80%;
     margin-right: auto;
@@ -269,7 +270,7 @@ button:hover {
     }
     .intro {
         margin: 0 20% 0 20%;
-    }
+    } 
     
 }
 
