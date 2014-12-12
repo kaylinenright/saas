@@ -189,17 +189,18 @@ font-family: 'Droid Serif', serif;
 }
 
 
-button {
+.button {
     font-size: 1em;
     background-color: #3AC2D4;
     color: #fff;
     cursor: pointer;
     padding: 1em 1em;
     border: none;
+    text-decoration: none;
 }
 
 
-button:hover {
+.button:hover {
     color: #fff;
     background-color: #737373;
 }
@@ -212,6 +213,7 @@ button:hover {
     padding: 1em 1em;
     border: none;
     text-decoration: none;
+    margin: 0 0 1em;
 }
 
 
