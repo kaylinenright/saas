@@ -2,90 +2,67 @@
     width: device-width;
     scale: 1;
 }
-
 @-ms-viewport {
     width: device-width;
     scale: 1;
 }
-
 @-o-viewport {
     width: device-width;
     scale: 1;
 }
-
 @-webkit-viewport {
     width: device-width;
     scale: 1;
 }
-
 @viewport {
     width: device-width;
     scale: 1;
 }
-
 html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
-    
 }
 *,
 *:before,
 *:after {
-    box-sizing:inherit;
+    box-sizing: inherit;
 }
-
-
 body {
     margin: 0;
     padding: 0;
 }
-
-
- input + label {
+input + label {
     display: inline-block;
 }
-
-
 .graphic {
-  margin: 0;
+    margin: 0;
     padding: 3em;
- position: relative;
- width: 100%;
+    position: relative;
+    width: 100%;
     background-image: url(../saas/images/group-2.jpg);
     background-size: cover;
 }
-
 .black-box {
     background-color: rgba(20, 20, 20, .65)
 }
-
-
-
-
 .img-flex {
     display: block;
     width: 100%;
 }
+.cap-title
+/** review title**/
 
-.cap-title /** review title**/ {
-    
-}
-
-
-
-a:link,
+ {} a:link,
 a:active {} .skip-links {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
-
 .skip-links a {
     position: absolute;
     top: -3em;
@@ -96,33 +73,24 @@ a:active {} .skip-links {
     font-size: 1.25em;
     text-decoration: none;
 }
-
 .skip-links a:focus {
     top: 0;
 }
-
 a:focus {
     outline: 3px solid #000;
 }
-
-
 header {
-      background-color: #737373;
+    background-color: #737373;
 }
-
-
 .nav {
     padding: 0;
     display: inline-block;
     overflow: hidden;
 }
-
-
 .nav li {
     display: inline-block;
-font-family: 'Droid Serif', serif;  
+    font-family: 'Droid Serif', serif;
 }
-
 .nav a,
 .nav a:link,
 .nav a:visited {
@@ -130,69 +98,51 @@ font-family: 'Droid Serif', serif;
     color: #3AC2D4;
     text-decoration: none;
 }
-
-
 .nav a:hover,
 .nav a:focus,
 .nav a:active,
-.nav .nav-current, 
+.nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
     color: #fff;
-    
 }
-
-
 .profile {
     width: 100%;
     border-radius: 50%;
     border: 3px solid #fff;
-    
 }
-
 .text-center {
     text-align: center;
 }
-
 .icons {
     width: 50%;
     margin-right: auto;
     margin-left: auto;
 }
-
 .section-light {
- background-color: #F2F2F2;
+    background-color: #F2F2F2;
 }
-
 .section-mid {
     background-color: #A6A5A5;
 }
-
 .section-dark {
     background-color: #737373;
 }
-
 .blue {
     color: #3AC2D4;
 }
-
 .white {
     color: #fff;
 }
-
-.light-grey{
-   color: #F2F2F2;
+.light-grey {
+    color: #F2F2F2;
 }
-
 .mid-grey {
     color: #A6A5A5;
 }
-    
 .dark-grey {
     color: #737373;
 }
-
-
 .button {
     font-size: 1em;
     background-color: #3AC2D4;
@@ -202,13 +152,10 @@ font-family: 'Droid Serif', serif;
     border: none;
     text-decoration: none;
 }
-
-
 .button:hover {
     color: #fff;
     background-color: #737373;
 }
-
 .button-2 {
     font-size: 1em;
     background-color: #F2F2F2;
@@ -219,26 +166,19 @@ font-family: 'Droid Serif', serif;
     text-decoration: none;
     margin: 0 0 1em;
 }
-
 .price {
     border: 3px solid #A6A5A5;
-
 }
-
 .button-2:hover {
     color: #fff;
     background-color: #3AC2D4;
 }
-
-
 fieldset {
     font-size: 1.5em;
     padding: 0.2em 0.5em;
     border-style: none;
     margin: 0;
 }
-
-
 .logo {
     width: 20%;
     margin: none;
@@ -246,69 +186,49 @@ fieldset {
     display: inline-block;
     overflow: hidden;
 }
-
 .line {
-    background: linear-gradient(to bottom, rgba(242,242,242,1) 49%,rgba(115,115,115,1) 51%,rgba(242,242,242,1) 53%);
+    background: linear-gradient(to bottom, rgba(242, 242, 242, 1) 49%, rgba(115, 115, 115, 1) 51%, rgba(242, 242, 242, 1) 53%);
     margin: 2.5rem;
 }
-
 .line-2 {
-  background: linear-gradient(to bottom, rgba(166,165,165,1) 48%,rgba(58,194,212,1) 50%,rgba(166,165,165,1) 52%); 
+    background: linear-gradient(to bottom, rgba(166, 165, 165, 1) 48%, rgba(58, 194, 212, 1) 50%, rgba(166, 165, 165, 1) 52%);
     margin: 2.5rem;
 }
-
 .back-1 {
     background-color: #F2F2F2;
     padding: 0.4em;
 }
-
 .back-2 {
     background-color: #A6A5A5;
     padding: 0.4em;
 }
-
-
- label {
-        display: block;
-        font-family: 'PT Sans', sans-serif;
-        font-size: 1.0000rem;
-        line-height: 1.5000;
-        size: 100%; 
- 
- }
+label {
+    display: block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.0000rem;
+    line-height: 1.5000;
+    size: 100%;
+}
 /* Get only the labels that come immediatly after an input */
-
 
 input + label {
     display: inline-block;
 }
-
 form {
-    width: 
+    width:
 }
-    
 .sign-up {
     width: 100%;
 }
-
-
 .sign-up:focus {
     outline: 2px solid #3AC2D4;
 }
-
-
 .questions {
     margin: 0;
 }
-
 .answer {
     color: #737373;
 }
-
-
-
-
-
 @media only screen and (min-width: 25em) {
     .nav {
         text-align: center;
@@ -316,80 +236,57 @@ form {
     .nav li {
         display: inline-block;
     }
-    
 }
-
-
-
 @media only screen and (min-width: 38em) {
-    
     .nav {
         text-align: left;
         float: left;
     }
-    
     .nav-footer {
         text-align: center;
     }
-    
-    
- .icons {
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-}
-      .logo {
-    width: 10%;
+    .icons {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .logo {
+        width: 10%;
     }
     .intro {
         margin: 0 20% 0 20%;
-    } 
-    
+    }
     .register {
         margin-left: 5em;
         margin-right: 5em;
     }
-    
-    .price {
-   
+    .price {}@media only screen and (min-width: 60em) {
+        .copy {
+            float: left;
+        }
+        .nav-footer {
+            float: right;
+        }
+        .tab {
+            margin: 0 5% 0 5%;
+        }
+        .nav {
+            float: left;
+        }
+        .logo {
+            width: 10%;
+        }
+        .intro {
+            margin: 0 20% 0 20%;
+        }
+        .register {
+            margin-left: 15em;
+            margin-right: 15em;
+        }
+        .question-whole {
+            margin: 0 10% 0 10%;
+        }
+        .icons {
+            width: 50%;
+        }
     }
-
-
-
-@media only screen and (min-width: 60em) {
-    .copy {
-        float: left;
-    }
-    .nav-footer {
-        float: right;
-    }
-    .tab {
-        margin: 0 5% 0 5%;
-    }
-    
-    .nav {
-        float: left;
-    }
-    .logo {
-    width: 10%;
-    }
-    
-     .intro {
-        margin: 0 20% 0 20%;
-    }
-    
-
-    .register {
-        margin-left: 15em;
-        margin-right: 15em;
-    }
-    
-    .question-whole {
-        margin: 0 10% 0 10%;
-    }
-    
-    .icons {
-    width: 50%;
-    }
-}
-    
