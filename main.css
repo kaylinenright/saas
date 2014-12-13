@@ -57,9 +57,16 @@ body {
     padding: 3em;
  position: relative;
  width: 100%;
-    background-image: url(http://placehold.it/1000x1000);
+    background-image: url(../saas/images/group-2.jpg);
     background-size: cover;
 }
+
+.black-box {
+    background-color: rgba(20, 20, 20, .65)
+}
+
+
+
 
 .img-flex {
     display: block;
@@ -68,9 +75,6 @@ body {
 
 .cap-title /** review title**/ {
     
-}
-
-.author {
 }
 
 
@@ -216,13 +220,15 @@ font-family: 'Droid Serif', serif;
     margin: 0 0 1em;
 }
 
+.price {
+    border: 3px solid #A6A5A5;
+
+}
 
 .button-2:hover {
     color: #fff;
     background-color: #3AC2D4;
 }
-
-
 
 
 fieldset {
@@ -231,9 +237,6 @@ fieldset {
     border-style: none;
     margin: 0;
 }
-
-
-
 
 
 .logo {
@@ -265,9 +268,6 @@ fieldset {
 }
 
 
-
-
-
  label {
         display: block;
         font-family: 'PT Sans', sans-serif;
@@ -297,8 +297,13 @@ form {
 }
 
 
+.questions {
+    margin: 0;
+}
 
-
+.answer {
+    color: #737373;
+}
 
 
 
@@ -311,6 +316,7 @@ form {
     .nav li {
         display: inline-block;
     }
+    
 }
 
 
@@ -343,7 +349,10 @@ form {
         margin-left: 5em;
         margin-right: 5em;
     }
-}
+    
+    .price {
+   
+    }
 
 
 
@@ -373,6 +382,10 @@ form {
     .register {
         margin-left: 15em;
         margin-right: 15em;
+    }
+    
+    .question-whole {
+        margin: 0 10% 0 10%;
     }
 }
     
