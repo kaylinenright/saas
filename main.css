@@ -387,5 +387,9 @@ form {
     .question-whole {
         margin: 0 10% 0 10%;
     }
+    
+    .icons {
+    width: 50%;
+    }
 }
     
